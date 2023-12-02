@@ -1,0 +1,248 @@
+header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+button:active{
+  background-color: white!important;
+  color: #444;
+ }
+.header-content{
+  display: flex;
+  justify-content: space-between;
+}
+header img{
+  height: 90px;
+}
+a{
+  text-decoration: none;
+  color: #444;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+ul{
+  display: flex;
+}
+ul li{
+  list-style: none;
+  font-size: 14px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+.header-content2{
+  margin-right: 30px;
+}
+
+.container .part-1 img{
+  width: 100px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container .part-1{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .part-1 button{
+  width: 400px;
+  height: 40px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background: #E67E22;
+  border-radius: 10px;
+}
+.btn-menu-hamburguer{
+  font-size: 50px!important;
+  margin-right: 10px;
+  display: none;
+}
+.vantagens{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.vantagens button{
+  width: 290px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+.free-antivirus{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.free-antivirus button{
+  display: flex;
+  align-items: center;
+  border: none;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: white;
+}
+.free-antivirus button img{
+  margin: 10px;
+}
+.vantagens2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.vantagens2 button{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 290px;
+  height: 300px;
+  border: none;
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+.vantagens2 button img{
+  height: 50px;
+ }
+ .download{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+ .download button{
+  width: 300px;
+  height: 50px;
+  background-color: #E67E22;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+ }
+ .more-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+ }
+ .more-info img{
+  width: 350px;
+ }
+ .more-info h1{
+  margin-top: 30px;
+  text-align: center;
+ }
+ .more{
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+ }
+ .more-users{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .comments{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+ .comment{
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px 30px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+ .comment .stars{
+  color: #E67E22;
+ }
+
+ .menu-footer-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+ .container-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(239, 239, 239);
+  flex-wrap: wrap;
+  margin-top: 30px;
+ }
+ .menu-mobile{
+  width: 100vw;
+  height: 100%;
+  background-color: #b5b5b5;
+  position: fixed;
+  bottom: 0px;
+  opacity: 99%;
+  display: none;
+ }
+ .menu-mobile ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+ }
+ .menu-mobile ul li{
+  padding: 15px;
+ }
+ .menu-mobile ul li a{
+  color: white;
+  font-size: 25px;
+ }
+ .menu-mobile span{
+  font-size: 55px;
+  color: white;
+ }
+@media only screen and (max-width: 800px) {
+  .content {
+    display: none;
+  }
+  .header-content2{
+    display: none;
+  }
+  .content-woman{
+    display: none;
+  }
+  .btn-menu-hamburguer{
+    font-size: 50px!important;
+    margin-right: 10px;
+    display: block;
+  }
+}
